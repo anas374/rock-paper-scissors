@@ -1,0 +1,40 @@
+* {
+    font-family: monospace;
+    color: rgb(170, 170, 170);
+}
+
+body {
+    background-color: black;
+}
+
+.rps-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+}
+
+.rps {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+
+.rps div {
+    border: 2px solid rgb(170, 170, 170);
+    padding: 1rem;
+}
+
+.rps-result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+    font-weight: 800;
+    font-size: large;
+}
+
+#round-result {
+    margin-bottom: 1rem;
+}
